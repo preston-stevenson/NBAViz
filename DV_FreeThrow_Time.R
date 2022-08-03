@@ -33,6 +33,7 @@ headers = c(
   `Accept-Language` = 'en-US,en;q=0.9'
 )
 
+
 url <- "https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_0042000404.json"
 
 res <- GET(url = url, add_headers(.headers=headers))
