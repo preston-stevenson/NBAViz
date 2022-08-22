@@ -35,6 +35,7 @@ tms <- tms %>%
     TRUE ~ teamName
   ))
 
+
 # data frame of win totals
 win_totals <- data.frame(
   team = c("Hawks", "Celtics", "Nets", "Hornets", "Bulls", "Cavaliers", "Mavericks", "Nuggets", "Pistons", 
